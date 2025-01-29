@@ -1,0 +1,49 @@
+Homework 1 - Open Source and Solidity fundamentals
+
+Exercise 1 - Open Source Communities 
+Part A - GitHub Contributions 
+
+5. Connecting frontend to Smart Contracts
+
+By connecting front ends to contract logic so using index.js to access this link: https://dauphine-digital-economics.github.io/Class-Directory/,
+I am able to check my current SepoliaETH balance after connecting to my metamask account. It is equal to 304708699082389300 Wei. 
+When looking at my balance through metamask, it says 0.3047 ETH.
+Since, 1 ETH =10^18 Wei so my balance in Wei would be :0.3047×10^18=3.047×10^17 Wei which is exactly what is shown prior.
+
+Part B - Open Source Licensing
+
+ SPDX short for Software Package data exchange is initiated and sustained by the linux foundation.
+Its goal is to standardize the process of licensing softwares and documenting metadata, thus, providing a common setup for communicating licensing, security, and compliance information through various open source software projects.
+Furthermore, by using SPDX, institutions can insure transparency, decrease their legal risks and smooth supply chain management.
+ For the first scenario: “You are starting a new DeFi project which uses a novel way of rewarding investors who lock their tokens in your staking contract.“, I would recommend using GNU General public licence v3.0.
+The reason being, that GPL-3.0 license makes sure the same terms apply to any other modification added which also need to be open source. By using this licence for our Novel Stacking mechanism in Defi,
+we are promoting transparency enabling researchers or any other developers to improve their stacking,
+while reducing the risk of proprietary forks which could jeopardise the project’s integrity.
+ For the second scenario: “Google Cloud Web3 is developing an enterprise grade software which allows other companies to build their own custom blockchain. Google would like to open source certain libraries for the community to maintain while keeping the core technology proprietary.”
+Here, the Apache 2.0 license will help google achieve its goal of open sourcing certain libraries whilst keeping the same core technology proprietary by allowing for permissive terms enabling both proprietary or open source projects to utilize the license.
+
+Part C - Open Source Community Metrics
+
+From its name virtual machine, we understand that it is a software based mirroring of an actual physical computer system. It permits diverse operating systems to run jointly on a single machine by removing the hardware layer. This also allows developers to execute their programs in isolated environments,
+ensuring consistency through all used platforms and bettering security by isolating applications.
+In blockchain,both Solana virtual machine and Ethereum virtual machine are crucial to execute smart contracts in solana and ethereum respectively.
+In line with what is stated in the 2024 Electric Capital Developer Report, the EVM enjoys a heavy developer base bringing together about 10 000 monthly active developers and 3600 full time ones.
+In opposition, SVM has far less active developers or full-time ones (only 3300 and 599 respectively) .
+We notice that thanks to EVM’s extensive developer community , this latter enjoys a resourceful and mature ecosystem which also enhances tools, repositories, libraries, and documentation. It is thus continuing to innovate and grow the collaborations taking place in it.
+A major drawback to EVM is its design resulting in some scalability concerns arising especially during peak network usage with higher transaction fees.
+On the other hand, whilst SVM community is smaller, it is expanding substantially thanks to its special design allowing lower transaction fees for higher throughputs.
+Therefore all the developers interested in building decentralized scalable applications are more and more brought to switch to SVM.
+Indeed, in 2024 Solana gained highest share of new devs in 2024. Solana still has to improve as it is not as resourceful but which will come with its growing maturity.
+In a nutshell, SVM is a small circle network experience significant growth, attracting developers prioritizing scalability thanks to its innovative design, while EVM is a more established developer community which continues to attract thanks to its maturity.
+
+Exercise 2 - Solidity programming
+
+Part C - RPC with Foundry Cast / I personnaly used Remix and so did my partner Anmool Amjad.
+We first compile the code on remix then deploy by setting the environment (up left) to "Injected provider metamask", so when we deploy, it is linked to our metamask account. 
+Then when it is deployed, we can check it's succesfulness as it will show in metamask activity.
+Back to remix, when we set the input BinarytoDecimal to 1101 and it outputs 13 then we are sure the code is well functionning.
+
+When we want to test for our partner, instead of deploying through our Injected provider metamask environment, 
+we deploy to the generated adress of our partner's metamask injection deployment. Then to check for the code accuracy, we do the same as above;
+we set the input BinarytoDecimal to 1101 and it outputs 13 then we are sure the code is well functionning. 
+
