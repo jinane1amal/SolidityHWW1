@@ -46,4 +46,7 @@ Back to remix, when we set the input BinarytoDecimal to 1101 and it outputs 13 t
 When we want to test for our partner, instead of deploying through our Injected provider metamask environment, 
 we deploy to the generated adress of our partner's metamask injection deployment. Then to check for the code accuracy, we do the same as above;
 we set the input BinarytoDecimal to 1101 and it outputs 13 then we are sure the code is well functionning. 
+My generated address is :0x49CFb4cdFB4E5C7f1D38DE111d0DBdeC79207F1C
+Anmool Amjad generated adress from her deployment that I then used to check is: 0x654fA9800849234B366c94e40d3D04AF0F129828
 
+End
